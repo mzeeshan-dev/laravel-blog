@@ -1,4 +1,4 @@
-<x-root-layout>
+<x-guest-layout>
     <!-- Main Content -->
     <div class="container mx-auto px-4 py-12">
         <div class="max-w-3xl mx-auto text-center mb-12">
@@ -72,4 +72,4 @@
             </div>
         </div>
     </div>
-</x-root-layout>
+</x-guest-layout>
