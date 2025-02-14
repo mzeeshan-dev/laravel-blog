@@ -1,8 +1,6 @@
-@extends('layouts.root')
-
-@section('content')
+<x-root-layout>
     <!-- Main Content -->
-    <main class="container mx-auto px-4 py-12">
+    <div class="container mx-auto px-4 py-12">
         <div class="max-w-3xl mx-auto text-center mb-12">
             <h1 class="text-4xl font-bold mb-4">Inside Design: Stories and interviews</h1>
             <p class="text-secondary mb-8">Subscribe to learn about new product features, the latest in technology, and
@@ -37,7 +35,8 @@
                         <h3 class="text-xl font-semibold group-hover:text-purple-600">
                             Conversations with London Makr & Co.
                         </h3>
-                        <p class="text-secondary">We sat down with London's fast-growing brand and product design studio,
+                        <p class="text-secondary">We sat down with London's fast-growing brand and product design
+                            studio,
                             Makr & Co. to find out how they've used Untitled UI to 2x their revenue.</p>
                         <div class="flex space-x-2">
                             <span class="px-3 py-1 text-sm bg-gray-100 rounded-full">Design</span>
@@ -72,5 +71,5 @@
                 </article>
             </div>
         </div>
-    </main>
-@endsection
+    </div>
+</x-root-layout>
